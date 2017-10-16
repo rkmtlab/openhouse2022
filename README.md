@@ -7,14 +7,7 @@
 4. Run web server: `ruby -run -e httpd . -p 8000`
 5. Open with your web browser: [localhost:8000](http://localhost:8000)
 
-
+## Tips
 Compiled stylesheets are generetad ./ directory.
-So you should do something like below.
-
-a. `mkdir tmp`
-b. `mv build tmp`
-3. `sass -r sass-globbing assets/styles/style.scss build`
-c. `mv build tmp/style.css; mv build.map tmp/style.css.map; mv tmp build`
-4. `ruby -run -e httpd . -p 8000`
-
-
+So the below one is better for use.
+`sass -r sass-globbing assets/styles/style.scss build/style.css`
