@@ -13,14 +13,14 @@ $mobile-context:    new-breakpoint(max-width $screen-mobile);
 
 $bg-img-dir:        "../assets/images/projects";
 $bg-img-mobile-dir: "../assets/images/projects/mobile";
-$bg-img-ids:        "intentio",
-                    "nyorobot",
+$bg-img-ids:        //"intentio",
+//                    "nyorobot",
                     "jackin-space",
 //                    "jackin-eye2",
                     "jackin-head",
-                    "jackin-eye",
-                    "move-me",
+                    "jackin-eye";//,
+//                    "move-me",
 //                    "squama",
 //                    "traxion",
-                    "casper",
-                    "cameleon-mask";
+//                    "casper",
+//                    "cameleon-mask";
