@@ -1,0 +1,23 @@
+html,
+body {
+  font-size: $font-size-base;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+h1 {
+  font-size: $font-size-huge;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: $font-size-huge;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: $font-size-larger;
+  font-weight: bold;
+}
