@@ -64,7 +64,7 @@ do
     # ここからCSSを出力する
     echo $css_string
 
-    # 下のをコメントアウトするとindex.htmlに出力するものが出てくる
+    # 下のコメントアウトを解除するとindex.htmlに出力するものが出てくる
     # echo "<div id=\"bg-$image_file_name_prefix\"></div>"
 
     loop_count=$(($loop_count+1))
