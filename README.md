@@ -13,18 +13,18 @@ So the below one is better for use.
 `sass -r sass-globbing assets/styles/style.scss build/style.css`
 
 #　背景画像の変更
--  まず、asstes/images/projectsとその下の/mobileに画像を入れます。この時、同じプロジェクトは同じ名前の画像ファイルにします
--  generate_background_css.shで下の二つを必要に応じて変更します(今は6秒で消えて、3秒オーバーラップする)
-   -  # 1枚の画像が出てから消えるまでの時間
+1. まず、asstes/images/projectsとその下の/mobileに画像を入れます。この時、同じプロジェクトは同じ名前の画像ファイルにします
+2.  generate_background_css.shで下の二つを必要に応じて変更します(今は6秒で消えて、3秒オーバーラップする)
+   -  #1枚の画像が出てから消えるまでの時間
    -  animation_length_in_second=6
-   -  # どれぐらいオーバーラップするか
+   -  #どれぐらいオーバーラップするか
    -  animation_overlap_length_in_second=3  
-- sh generate_background_css.sh でCSSを生成します
-- そしてbuild/style.cssを変更します。(↓この場所です)
+3. sh generate_background_css.sh でCSSを生成します
+  - そしてbuild/style.cssを変更します。(↓この場所です)
   - /*************************/
     /* ここからbackground CSS */
     /*************************/
-- generate_background_css.shのコメントアウト場所を変えてhtmlを出力します
-  - # 下のコメントアウトを解除するとindex.htmlに出力するものが出てくる
-  - # echo "<div id=\"bg-$image_file_name_prefix\"></div>"
-- 最後にindex.htmlを編集します
+4. generate_background_css.shのコメントアウト場所を変えてhtmlを出力します
+  - #下のコメントアウトを解除するとindex.htmlに出力するものが出てくる
+  - #echo "<div id=\"bg-$image_file_name_prefix\"></div>"
+5. 最後にindex.htmlを編集します
