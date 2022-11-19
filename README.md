@@ -26,6 +26,6 @@ So the below one is better for use.
        - /* ここからbackground CSS */
        - /\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
 4. generate_background_css.shのコメントアウト場所を変えてhtmlを出力します
-       - #下のコメントアウトを解除するとindex.htmlに出力するものが出てくる
-       - #echo "<div id=\"bg-$image_file_name_prefix\"></div>"
+      - #下のコメントアウトを解除するとindex.htmlに出力するものが出てくる
+      - #echo "<div id=\"bg-$image_file_name_prefix\"></div>"
 5. 最後にindex.htmlを編集します
