@@ -1,4 +1,4 @@
-# rkmtlab.github.io/openhouse2016
+# rkmtlab.github.io/openhouse2022
 ## Getting started
 
 1. Clone this repository: `git clone git@github.com:rkmtlab/openhouse2016.git`
