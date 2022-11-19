@@ -12,7 +12,8 @@ Compiled stylesheets are generetad ./ directory.
 So the below one is better for use.
 `sass -r sass-globbing assets/styles/style.scss build/style.css`
 
-#　背景画像の変更
+## 背景画像の変更
+
 1. まず、asstes/images/projectsとその下の/mobileに画像を入れます。この時、同じプロジェクトは同じ名前の画像ファイルにします
 2.  generate_background_css.shで下の二つを必要に応じて変更します(今は6秒で消えて、3秒オーバーラップする)
    -  #1枚の画像が出てから消えるまでの時間
