@@ -389,11 +389,12 @@ html {
 /*************************/
 /* ここからbackground CSS */
 /*************************/
+
 @keyframes animation-AGVS {
   0% {opacity: 0; }
   0% {opacity: 0; }
-  2.63157% {opacity: 1; }
-  5.26315% {opacity: 0; }
+  3.24675% {opacity: 1; }
+  6.49350% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-AGVS {
@@ -406,7 +407,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-AGVS 95s ease-out infinite;
+  animation: animation-AGVS 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-AGVS {
@@ -422,9 +423,9 @@ html {
 
 @keyframes animation-BeamingDisplay {
   0% {opacity: 0; }
-  5.26315% {opacity: 0; }
-  7.89472% {opacity: 1; }
-  10.52630% {opacity: 0; }
+  5.19480% {opacity: 0; }
+  8.44155% {opacity: 1; }
+  11.68830% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-BeamingDisplay {
@@ -437,7 +438,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-BeamingDisplay 95s ease-out infinite;
+  animation: animation-BeamingDisplay 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-BeamingDisplay {
@@ -453,9 +454,9 @@ html {
 
 @keyframes animation-Blending_Shadows {
   0% {opacity: 0; }
-  10.52630% {opacity: 0; }
-  13.15787% {opacity: 1; }
-  15.78945% {opacity: 0; }
+  10.38960% {opacity: 0; }
+  13.63635% {opacity: 1; }
+  16.88310% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-Blending_Shadows {
@@ -468,7 +469,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-Blending_Shadows 95s ease-out infinite;
+  animation: animation-Blending_Shadows 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-Blending_Shadows {
@@ -484,9 +485,9 @@ html {
 
 @keyframes animation-Dehazeglasses {
   0% {opacity: 0; }
-  15.78945% {opacity: 0; }
-  18.42102% {opacity: 1; }
-  21.05260% {opacity: 0; }
+  15.58440% {opacity: 0; }
+  18.83115% {opacity: 1; }
+  22.07790% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-Dehazeglasses {
@@ -499,7 +500,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-Dehazeglasses 95s ease-out infinite;
+  animation: animation-Dehazeglasses 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-Dehazeglasses {
@@ -515,9 +516,9 @@ html {
 
 @keyframes animation-NeARportation {
   0% {opacity: 0; }
-  21.05260% {opacity: 0; }
-  23.68417% {opacity: 1; }
-  26.31575% {opacity: 0; }
+  20.77920% {opacity: 0; }
+  24.02595% {opacity: 1; }
+  27.27270% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-NeARportation {
@@ -530,7 +531,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-NeARportation 95s ease-out infinite;
+  animation: animation-NeARportation 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-NeARportation {
@@ -546,9 +547,9 @@ html {
 
 @keyframes animation-NeuralCalibratedHMD {
   0% {opacity: 0; }
-  26.31575% {opacity: 0; }
-  28.94732% {opacity: 1; }
-  31.57890% {opacity: 0; }
+  25.97400% {opacity: 0; }
+  29.22075% {opacity: 1; }
+  32.46750% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-NeuralCalibratedHMD {
@@ -561,7 +562,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-NeuralCalibratedHMD 95s ease-out infinite;
+  animation: animation-NeuralCalibratedHMD 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-NeuralCalibratedHMD {
@@ -577,9 +578,9 @@ html {
 
 @keyframes animation-Schlieren_for_AR {
   0% {opacity: 0; }
-  31.57890% {opacity: 0; }
-  34.21047% {opacity: 1; }
-  36.84205% {opacity: 0; }
+  31.16880% {opacity: 0; }
+  34.41555% {opacity: 1; }
+  37.66230% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-Schlieren_for_AR {
@@ -592,7 +593,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-Schlieren_for_AR 95s ease-out infinite;
+  animation: animation-Schlieren_for_AR 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-Schlieren_for_AR {
@@ -608,9 +609,9 @@ html {
 
 @keyframes animation-Visual_Sound_Effects {
   0% {opacity: 0; }
-  36.84205% {opacity: 0; }
-  39.47362% {opacity: 1; }
-  42.10520% {opacity: 0; }
+  36.36360% {opacity: 0; }
+  39.61035% {opacity: 1; }
+  42.85710% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-Visual_Sound_Effects {
@@ -623,7 +624,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-Visual_Sound_Effects 95s ease-out infinite;
+  animation: animation-Visual_Sound_Effects 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-Visual_Sound_Effects {
@@ -639,9 +640,9 @@ html {
 
 @keyframes animation-aware {
   0% {opacity: 0; }
-  42.10520% {opacity: 0; }
-  44.73677% {opacity: 1; }
-  47.36835% {opacity: 0; }
+  41.55840% {opacity: 0; }
+  44.80515% {opacity: 1; }
+  48.05190% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-aware {
@@ -654,7 +655,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-aware 95s ease-out infinite;
+  animation: animation-aware 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-aware {
@@ -670,9 +671,9 @@ html {
 
 @keyframes animation-calmresponse {
   0% {opacity: 0; }
-  47.36835% {opacity: 0; }
-  49.99992% {opacity: 1; }
-  52.63150% {opacity: 0; }
+  46.75320% {opacity: 0; }
+  49.99995% {opacity: 1; }
+  53.24670% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-calmresponse {
@@ -685,7 +686,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-calmresponse 95s ease-out infinite;
+  animation: animation-calmresponse 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-calmresponse {
@@ -701,9 +702,9 @@ html {
 
 @keyframes animation-ddsupport {
   0% {opacity: 0; }
-  52.63150% {opacity: 0; }
-  55.26307% {opacity: 1; }
-  57.89465% {opacity: 0; }
+  51.94800% {opacity: 0; }
+  55.19475% {opacity: 1; }
+  58.44150% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-ddsupport {
@@ -716,7 +717,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-ddsupport 95s ease-out infinite;
+  animation: animation-ddsupport 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-ddsupport {
@@ -732,9 +733,9 @@ html {
 
 @keyframes animation-derma {
   0% {opacity: 0; }
-  57.89465% {opacity: 0; }
-  60.52622% {opacity: 1; }
-  63.15780% {opacity: 0; }
+  57.14280% {opacity: 0; }
+  60.38955% {opacity: 1; }
+  63.63630% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-derma {
@@ -747,7 +748,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-derma 95s ease-out infinite;
+  animation: animation-derma 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-derma {
@@ -763,9 +764,9 @@ html {
 
 @keyframes animation-dualvoice {
   0% {opacity: 0; }
-  63.15780% {opacity: 0; }
-  65.78937% {opacity: 1; }
-  68.42095% {opacity: 0; }
+  62.33760% {opacity: 0; }
+  65.58435% {opacity: 1; }
+  68.83110% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-dualvoice {
@@ -778,7 +779,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-dualvoice 95s ease-out infinite;
+  animation: animation-dualvoice 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-dualvoice {
@@ -794,9 +795,9 @@ html {
 
 @keyframes animation-liplearner {
   0% {opacity: 0; }
-  68.42095% {opacity: 0; }
-  71.05252% {opacity: 1; }
-  73.68410% {opacity: 0; }
+  67.53240% {opacity: 0; }
+  70.77915% {opacity: 1; }
+  74.02590% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-liplearner {
@@ -809,7 +810,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-liplearner 95s ease-out infinite;
+  animation: animation-liplearner 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-liplearner {
@@ -825,9 +826,9 @@ html {
 
 @keyframes animation-motion_in_action {
   0% {opacity: 0; }
-  73.68410% {opacity: 0; }
-  76.31567% {opacity: 1; }
-  78.94725% {opacity: 0; }
+  72.72720% {opacity: 0; }
+  75.97395% {opacity: 1; }
+  79.22070% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-motion_in_action {
@@ -840,7 +841,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-motion_in_action 95s ease-out infinite;
+  animation: animation-motion_in_action 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-motion_in_action {
@@ -856,9 +857,9 @@ html {
 
 @keyframes animation-motion_seek_circle {
   0% {opacity: 0; }
-  78.94725% {opacity: 0; }
-  81.57882% {opacity: 1; }
-  84.21040% {opacity: 0; }
+  77.92200% {opacity: 0; }
+  81.16875% {opacity: 1; }
+  84.41550% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-motion_seek_circle {
@@ -871,7 +872,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-motion_seek_circle 95s ease-out infinite;
+  animation: animation-motion_seek_circle 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-motion_seek_circle {
@@ -887,9 +888,9 @@ html {
 
 @keyframes animation-remoconhanger {
   0% {opacity: 0; }
-  84.21040% {opacity: 0; }
-  86.84197% {opacity: 1; }
-  89.47355% {opacity: 0; }
+  83.11680% {opacity: 0; }
+  86.36355% {opacity: 1; }
+  89.61030% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-remoconhanger {
@@ -902,7 +903,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-remoconhanger 95s ease-out infinite;
+  animation: animation-remoconhanger 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-remoconhanger {
@@ -918,9 +919,9 @@ html {
 
 @keyframes animation-silentspeller {
   0% {opacity: 0; }
-  89.47355% {opacity: 0; }
-  92.10512% {opacity: 1; }
-  94.73670% {opacity: 0; }
+  88.31160% {opacity: 0; }
+  91.55835% {opacity: 1; }
+  94.80510% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-silentspeller {
@@ -933,7 +934,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-silentspeller 95s ease-out infinite;
+  animation: animation-silentspeller 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-silentspeller {
@@ -949,9 +950,9 @@ html {
 
 @keyframes animation-zigen {
   0% {opacity: 0; }
-  94.73670% {opacity: 0; }
-  97.36827% {opacity: 1; }
-  99.99985% {opacity: 0; }
+  93.50640% {opacity: 0; }
+  96.75315% {opacity: 1; }
+  99.99990% {opacity: 0; }
   100% {opacity: 0; } 
 }
 .bg-container #bg-zigen {
@@ -964,7 +965,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   background: no-repeat center center;
-  animation: animation-zigen 95s ease-out infinite;
+  animation: animation-zigen 77s ease-out infinite;
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-zigen {
@@ -977,8 +978,9 @@ html {
   background-size: auto 100%; } 
 }
 
+
 /*************************/
-/* ここまでがbackground CAA */
+/* ここまでがbackground CSS */
 /*************************/
 
 .bg-container .bg-shade {
