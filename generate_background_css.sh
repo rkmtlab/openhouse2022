@@ -12,6 +12,13 @@ do
     # echo $imagefilenameprefix
 
     css_string="\n
+    @keyframes animation-$imagefilenameprefix {\n
+        \t 0% {opacity: 0; }\n
+        \t 57.14286% {opacity: 0; }\n
+        \t 71.42857% {opacity: 1; }\n
+        \t 85.71429% {opacity: 0; }\n
+        \t 100% {opacity: 0; } \n
+    }\n
     .bg-container #bg-$imagefilenameprefix {\n
         \t z-index: −2;\n
         \t position: fixed;\n
@@ -22,22 +29,18 @@ do
         \t min-width: 100%;\n
         \t min-height: 100%;\n
         \t background: no-repeat center center;\n
-        \t animation: animation-$imagefilenameprefix 35s ease-out infinite; }\n
-        \t @media screen and (min-width: 500px) {\n
+        \t animation: animation-$imagefilenameprefix 35s ease-out infinite;\n
+        }\n
+    @media screen and (min-width: 500px) {\n
         \t     .bg-container #bg-$imagefilenameprefix {\n
         \t     background-image: url(../$imagefilepath);\n
-        \t     background-size: 100% auto; } }\n
-        \t @media screen and (max-width: 500px) {\n
+        \t     background-size: 100% auto; } \n
+    }\n
+    @media screen and (max-width: 500px) {\n
         \t     .bg-container #bg-$imagefilenameprefix {\n
         \t     background-image: url(../$imagefilepath);\n
-        \t     background-size: auto 100%; } }\n
-        \t @keyframes animation-$imagefilenameprefix {\n
-        \t     0% {opacity: 0; }\n
-        \t     0% {opacity: 0; }\n
-        \t     14.28571% {opacity: 1; }\n
-        \t     28.57143% {opacity: 0; }\n
-        \t     100% {opacity: 0; } \n
-    }"
+        \t     background-size: auto 100%; } \n
+    }\n"
     echo $css_string
     # echo "<div id=\"bg-$imagefilenameprefix\"></div>"
 

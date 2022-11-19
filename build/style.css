@@ -385,518 +385,602 @@ html {
       background-image: url(../assets/images/projects/mobile/sakana.png);
       background-size: auto 100%; } }
 
-      .bg-container #bg-AGVS {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-AGVS 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-AGVS {
-        background-image: url(../assets/images/projects/mobile/AGVS.png);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-AGVS {
-        background-image: url(../assets/images/projects/mobile/AGVS.png);
-        background-size: auto 100%; } }
-        @keyframes animation-AGVS {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+
+/*************************/
+/* ここからbackground CSS */
+/*************************/
+
+@keyframes animation-AGVS {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
+.bg-container #bg-AGVS {
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-AGVS 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-AGVS {
+  background-image: url(../assets/images/projects/mobile/AGVS.png);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-AGVS {
+  background-image: url(../assets/images/projects/mobile/AGVS.png);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-BeamingDisplay {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-BeamingDisplay {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-BeamingDisplay 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-BeamingDisplay {
-        background-image: url(../assets/images/projects/mobile/BeamingDisplay.jpg);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-BeamingDisplay {
-        background-image: url(../assets/images/projects/mobile/BeamingDisplay.jpg);
-        background-size: auto 100%; } }
-        @keyframes animation-BeamingDisplay {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-BeamingDisplay 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-BeamingDisplay {
+  background-image: url(../assets/images/projects/mobile/BeamingDisplay.jpg);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-BeamingDisplay {
+  background-image: url(../assets/images/projects/mobile/BeamingDisplay.jpg);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-Blending_Shadows {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-Blending_Shadows {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-Blending_Shadows 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-Blending_Shadows {
-        background-image: url(../assets/images/projects/mobile/Blending_Shadows.jpg);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-Blending_Shadows {
-        background-image: url(../assets/images/projects/mobile/Blending_Shadows.jpg);
-        background-size: auto 100%; } }
-        @keyframes animation-Blending_Shadows {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-Blending_Shadows 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-Blending_Shadows {
+  background-image: url(../assets/images/projects/mobile/Blending_Shadows.jpg);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-Blending_Shadows {
+  background-image: url(../assets/images/projects/mobile/Blending_Shadows.jpg);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-Dehazeglasses {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-Dehazeglasses {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-Dehazeglasses 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-Dehazeglasses {
-        background-image: url(../assets/images/projects/mobile/Dehazeglasses.jpg);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-Dehazeglasses {
-        background-image: url(../assets/images/projects/mobile/Dehazeglasses.jpg);
-        background-size: auto 100%; } }
-        @keyframes animation-Dehazeglasses {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-Dehazeglasses 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-Dehazeglasses {
+  background-image: url(../assets/images/projects/mobile/Dehazeglasses.jpg);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-Dehazeglasses {
+  background-image: url(../assets/images/projects/mobile/Dehazeglasses.jpg);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-NeARportation {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-NeARportation {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-NeARportation 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-NeARportation {
-        background-image: url(../assets/images/projects/mobile/NeARportation.jpg);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-NeARportation {
-        background-image: url(../assets/images/projects/mobile/NeARportation.jpg);
-        background-size: auto 100%; } }
-        @keyframes animation-NeARportation {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-NeARportation 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-NeARportation {
+  background-image: url(../assets/images/projects/mobile/NeARportation.jpg);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-NeARportation {
+  background-image: url(../assets/images/projects/mobile/NeARportation.jpg);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-NeuralCalibratedHMD {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-NeuralCalibratedHMD {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-NeuralCalibratedHMD 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-NeuralCalibratedHMD {
-        background-image: url(../assets/images/projects/mobile/NeuralCalibratedHMD.jpg);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-NeuralCalibratedHMD {
-        background-image: url(../assets/images/projects/mobile/NeuralCalibratedHMD.jpg);
-        background-size: auto 100%; } }
-        @keyframes animation-NeuralCalibratedHMD {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-NeuralCalibratedHMD 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-NeuralCalibratedHMD {
+  background-image: url(../assets/images/projects/mobile/NeuralCalibratedHMD.jpg);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-NeuralCalibratedHMD {
+  background-image: url(../assets/images/projects/mobile/NeuralCalibratedHMD.jpg);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-Schlieren_for_AR {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-Schlieren_for_AR {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-Schlieren_for_AR 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-Schlieren_for_AR {
-        background-image: url(../assets/images/projects/mobile/Schlieren_for_AR.jpg);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-Schlieren_for_AR {
-        background-image: url(../assets/images/projects/mobile/Schlieren_for_AR.jpg);
-        background-size: auto 100%; } }
-        @keyframes animation-Schlieren_for_AR {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-Schlieren_for_AR 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-Schlieren_for_AR {
+  background-image: url(../assets/images/projects/mobile/Schlieren_for_AR.jpg);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-Schlieren_for_AR {
+  background-image: url(../assets/images/projects/mobile/Schlieren_for_AR.jpg);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-Visual_Sound_Effects {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-Visual_Sound_Effects {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-Visual_Sound_Effects 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-Visual_Sound_Effects {
-        background-image: url(../assets/images/projects/mobile/Visual_Sound_Effects.jpg);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-Visual_Sound_Effects {
-        background-image: url(../assets/images/projects/mobile/Visual_Sound_Effects.jpg);
-        background-size: auto 100%; } }
-        @keyframes animation-Visual_Sound_Effects {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-Visual_Sound_Effects 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-Visual_Sound_Effects {
+  background-image: url(../assets/images/projects/mobile/Visual_Sound_Effects.jpg);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-Visual_Sound_Effects {
+  background-image: url(../assets/images/projects/mobile/Visual_Sound_Effects.jpg);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-aware {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-aware {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-aware 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-aware {
-        background-image: url(../assets/images/projects/mobile/aware.jpg);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-aware {
-        background-image: url(../assets/images/projects/mobile/aware.jpg);
-        background-size: auto 100%; } }
-        @keyframes animation-aware {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-aware 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-aware {
+  background-image: url(../assets/images/projects/mobile/aware.jpg);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-aware {
+  background-image: url(../assets/images/projects/mobile/aware.jpg);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-calmresponse {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-calmresponse {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-calmresponse 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-calmresponse {
-        background-image: url(../assets/images/projects/mobile/calmresponse.jpg);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-calmresponse {
-        background-image: url(../assets/images/projects/mobile/calmresponse.jpg);
-        background-size: auto 100%; } }
-        @keyframes animation-calmresponse {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-calmresponse 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-calmresponse {
+  background-image: url(../assets/images/projects/mobile/calmresponse.jpg);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-calmresponse {
+  background-image: url(../assets/images/projects/mobile/calmresponse.jpg);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-ddsupport {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-ddsupport {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-ddsupport 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-ddsupport {
-        background-image: url(../assets/images/projects/mobile/ddsupport.png);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-ddsupport {
-        background-image: url(../assets/images/projects/mobile/ddsupport.png);
-        background-size: auto 100%; } }
-        @keyframes animation-ddsupport {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-ddsupport 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-ddsupport {
+  background-image: url(../assets/images/projects/mobile/ddsupport.png);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-ddsupport {
+  background-image: url(../assets/images/projects/mobile/ddsupport.png);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-derma {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-derma {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-derma 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-derma {
-        background-image: url(../assets/images/projects/mobile/derma.png);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-derma {
-        background-image: url(../assets/images/projects/mobile/derma.png);
-        background-size: auto 100%; } }
-        @keyframes animation-derma {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-derma 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-derma {
+  background-image: url(../assets/images/projects/mobile/derma.png);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-derma {
+  background-image: url(../assets/images/projects/mobile/derma.png);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-dualvoice {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-dualvoice {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-dualvoice 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-dualvoice {
-        background-image: url(../assets/images/projects/mobile/dualvoice.png);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-dualvoice {
-        background-image: url(../assets/images/projects/mobile/dualvoice.png);
-        background-size: auto 100%; } }
-        @keyframes animation-dualvoice {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-dualvoice 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-dualvoice {
+  background-image: url(../assets/images/projects/mobile/dualvoice.png);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-dualvoice {
+  background-image: url(../assets/images/projects/mobile/dualvoice.png);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-liplearner {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-liplearner {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-liplearner 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-liplearner {
-        background-image: url(../assets/images/projects/mobile/liplearner.jpg);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-liplearner {
-        background-image: url(../assets/images/projects/mobile/liplearner.jpg);
-        background-size: auto 100%; } }
-        @keyframes animation-liplearner {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-liplearner 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-liplearner {
+  background-image: url(../assets/images/projects/mobile/liplearner.jpg);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-liplearner {
+  background-image: url(../assets/images/projects/mobile/liplearner.jpg);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-motion_in_action {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-motion_in_action {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-motion_in_action 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-motion_in_action {
-        background-image: url(../assets/images/projects/mobile/motion_in_action.png);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-motion_in_action {
-        background-image: url(../assets/images/projects/mobile/motion_in_action.png);
-        background-size: auto 100%; } }
-        @keyframes animation-motion_in_action {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-motion_in_action 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-motion_in_action {
+  background-image: url(../assets/images/projects/mobile/motion_in_action.png);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-motion_in_action {
+  background-image: url(../assets/images/projects/mobile/motion_in_action.png);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-motion_seek_circle {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-motion_seek_circle {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-motion_seek_circle 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-motion_seek_circle {
-        background-image: url(../assets/images/projects/mobile/motion_seek_circle.png);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-motion_seek_circle {
-        background-image: url(../assets/images/projects/mobile/motion_seek_circle.png);
-        background-size: auto 100%; } }
-        @keyframes animation-motion_seek_circle {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-motion_seek_circle 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-motion_seek_circle {
+  background-image: url(../assets/images/projects/mobile/motion_seek_circle.png);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-motion_seek_circle {
+  background-image: url(../assets/images/projects/mobile/motion_seek_circle.png);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-remoconhanger {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-remoconhanger {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-remoconhanger 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-remoconhanger {
-        background-image: url(../assets/images/projects/mobile/remoconhanger.jpg);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-remoconhanger {
-        background-image: url(../assets/images/projects/mobile/remoconhanger.jpg);
-        background-size: auto 100%; } }
-        @keyframes animation-remoconhanger {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-remoconhanger 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-remoconhanger {
+  background-image: url(../assets/images/projects/mobile/remoconhanger.jpg);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-remoconhanger {
+  background-image: url(../assets/images/projects/mobile/remoconhanger.jpg);
+  background-size: auto 100%; } 
 }
 
+
+@keyframes animation-silentspeller {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
+}
 .bg-container #bg-silentspeller {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-silentspeller 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-silentspeller {
-        background-image: url(../assets/images/projects/mobile/silentspeller.png);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-silentspeller {
-        background-image: url(../assets/images/projects/mobile/silentspeller.png);
-        background-size: auto 100%; } }
-        @keyframes animation-silentspeller {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-silentspeller 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-silentspeller {
+  background-image: url(../assets/images/projects/mobile/silentspeller.png);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-silentspeller {
+  background-image: url(../assets/images/projects/mobile/silentspeller.png);
+  background-size: auto 100%; } 
 }
 
-.bg-container #bg-zigen {
-        z-index: −2;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background: no-repeat center center;
-        animation: animation-zigen 35s ease-out infinite; }
-        @media screen and (min-width: 500px) {
-        .bg-container #bg-zigen {
-        background-image: url(../assets/images/projects/mobile/zigen.jpeg);
-        background-size: 100% auto; } }
-        @media screen and (max-width: 500px) {
-        .bg-container #bg-zigen {
-        background-image: url(../assets/images/projects/mobile/zigen.jpeg);
-        background-size: auto 100%; } }
-        @keyframes animation-zigen {
-        0% {opacity: 0; }
-        0% {opacity: 0; }
-        14.28571% {opacity: 1; }
-        28.57143% {opacity: 0; }
-        100% {opacity: 0; } 
+
+@keyframes animation-zigen {
+  0% {opacity: 0; }
+  57.14286% {opacity: 0; }
+  71.42857% {opacity: 1; }
+  85.71429% {opacity: 0; }
+  100% {opacity: 0; } 
 }
+.bg-container #bg-zigen {
+  z-index: −2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat center center;
+  animation: animation-zigen 35s ease-out infinite;
+}
+@media screen and (min-width: 500px) {
+  .bg-container #bg-zigen {
+  background-image: url(../assets/images/projects/mobile/zigen.jpeg);
+  background-size: 100% auto; } 
+}
+@media screen and (max-width: 500px) {
+  .bg-container #bg-zigen {
+  background-image: url(../assets/images/projects/mobile/zigen.jpeg);
+  background-size: auto 100%; } 
+}
+
+/*************************/
+/* ここまでがbackground CAA */
+/*************************/
 
 .bg-container .bg-shade {
   position: fixed;
