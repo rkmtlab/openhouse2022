@@ -183,7 +183,6 @@ html {
 /* ここからbackground CSS */
 /*************************/
 
-
 @keyframes animation-AGVS {
   0% {opacity: 0; }
   0% {opacity: 0; }
@@ -205,7 +204,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-AGVS {
-  background-image: url(../assets/images/projects/mobile/AGVS.png);
+  background-image: url(../assets/images/projects/AGVS.png);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -236,7 +235,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-BeamingDisplay {
-  background-image: url(../assets/images/projects/mobile/BeamingDisplay.jpg);
+  background-image: url(../assets/images/projects/BeamingDisplay.jpg);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -267,7 +266,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-Blending_Shadows {
-  background-image: url(../assets/images/projects/mobile/Blending_Shadows.jpg);
+  background-image: url(../assets/images/projects/Blending_Shadows.jpg);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -298,7 +297,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-Dehazeglasses {
-  background-image: url(../assets/images/projects/mobile/Dehazeglasses.jpg);
+  background-image: url(../assets/images/projects/Dehazeglasses.jpg);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -329,7 +328,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-NeARportation {
-  background-image: url(../assets/images/projects/mobile/NeARportation.jpg);
+  background-image: url(../assets/images/projects/NeARportation.jpg);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -360,7 +359,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-NeuralCalibratedHMD {
-  background-image: url(../assets/images/projects/mobile/NeuralCalibratedHMD.jpg);
+  background-image: url(../assets/images/projects/NeuralCalibratedHMD.jpg);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -391,7 +390,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-Schlieren_for_AR {
-  background-image: url(../assets/images/projects/mobile/Schlieren_for_AR.jpg);
+  background-image: url(../assets/images/projects/Schlieren_for_AR.jpg);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -422,7 +421,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-Visual_Sound_Effects {
-  background-image: url(../assets/images/projects/mobile/Visual_Sound_Effects.jpg);
+  background-image: url(../assets/images/projects/Visual_Sound_Effects.jpg);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -453,7 +452,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-aware {
-  background-image: url(../assets/images/projects/mobile/aware.jpg);
+  background-image: url(../assets/images/projects/aware.jpg);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -484,7 +483,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-calmresponse {
-  background-image: url(../assets/images/projects/mobile/calmresponse.jpg);
+  background-image: url(../assets/images/projects/calmresponse.jpg);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -515,7 +514,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-ddsupport {
-  background-image: url(../assets/images/projects/mobile/ddsupport.png);
+  background-image: url(../assets/images/projects/ddsupport.png);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -546,7 +545,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-derma {
-  background-image: url(../assets/images/projects/mobile/derma.png);
+  background-image: url(../assets/images/projects/derma.png);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -577,7 +576,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-dualvoice {
-  background-image: url(../assets/images/projects/mobile/dualvoice.png);
+  background-image: url(../assets/images/projects/dualvoice.png);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -608,7 +607,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-liplearner {
-  background-image: url(../assets/images/projects/mobile/liplearner.jpg);
+  background-image: url(../assets/images/projects/liplearner.jpg);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -639,7 +638,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-motion_in_action {
-  background-image: url(../assets/images/projects/mobile/motion_in_action.png);
+  background-image: url(../assets/images/projects/motion_in_action.png);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -670,7 +669,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-motion_seek_circle {
-  background-image: url(../assets/images/projects/mobile/motion_seek_circle.png);
+  background-image: url(../assets/images/projects/motion_seek_circle.png);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -701,7 +700,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-remoconhanger {
-  background-image: url(../assets/images/projects/mobile/remoconhanger.jpg);
+  background-image: url(../assets/images/projects/remoconhanger.jpg);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -732,7 +731,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-silentspeller {
-  background-image: url(../assets/images/projects/mobile/silentspeller.png);
+  background-image: url(../assets/images/projects/silentspeller.png);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -763,7 +762,7 @@ html {
 }
 @media screen and (min-width: 500px) {
   .bg-container #bg-zigen {
-  background-image: url(../assets/images/projects/mobile/zigen.jpeg);
+  background-image: url(../assets/images/projects/zigen.jpeg);
   background-size: 100% auto; } 
 }
 @media screen and (max-width: 500px) {
@@ -771,7 +770,6 @@ html {
   background-image: url(../assets/images/projects/mobile/zigen.jpeg);
   background-size: auto 100%; } 
 }
-
 
 /*************************/
 /* ここまでがbackground CSS */
