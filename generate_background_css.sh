@@ -4,8 +4,8 @@ imagefiles=`find $dir_path -type f`
 image_numbers=`find $dir_path -type f | wc -l`
 floating_point_scale=5
 
-animation_length_in_second=5
-animation_overlap_length_in_second=1
+animation_length_in_second=6
+animation_overlap_length_in_second=3
 animation_total_length_in_second=$(($animation_length_in_second * $image_numbers - $animation_overlap_length_in_second*($image_numbers-1)))
 # 1秒が全体の何%に当たるか
 animation_percent_by_second=`echo "scale=$floating_point_scale; 100.000 / $animation_total_length_in_second" | bc` 
