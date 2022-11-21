@@ -58,7 +58,7 @@ do
     @media screen and (max-width: 500px) {\n
         \t     .bg-container #bg-$image_file_name_prefix {\n
         \t     background-image: url(../$mobile_image_file_path);\n
-        \t     background-size: auto 100%; } \n
+        \t     background-size: 100% auto; } \n
     }\n"
 
     # ここからCSSを出力する

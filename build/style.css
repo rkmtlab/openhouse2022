@@ -183,6 +183,7 @@ html {
 /* ここからbackground CSS */
 /*************************/
 
+
 @keyframes animation-AGVS {
   0% {opacity: 0; }
   0% {opacity: 0; }
@@ -210,7 +211,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-AGVS {
   background-image: url(../assets/images/projects/mobile/AGVS.png);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -241,7 +242,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-BeamingDisplay {
   background-image: url(../assets/images/projects/mobile/BeamingDisplay.jpg);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -272,7 +273,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-Blending_Shadows {
   background-image: url(../assets/images/projects/mobile/Blending_Shadows.jpg);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -303,7 +304,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-Dehazeglasses {
   background-image: url(../assets/images/projects/mobile/Dehazeglasses.jpg);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -334,7 +335,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-NeARportation {
   background-image: url(../assets/images/projects/mobile/NeARportation.jpg);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -365,7 +366,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-NeuralCalibratedHMD {
   background-image: url(../assets/images/projects/mobile/NeuralCalibratedHMD.jpg);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -396,7 +397,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-Schlieren_for_AR {
   background-image: url(../assets/images/projects/mobile/Schlieren_for_AR.jpg);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -427,7 +428,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-Visual_Sound_Effects {
   background-image: url(../assets/images/projects/mobile/Visual_Sound_Effects.jpg);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -458,7 +459,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-aware {
   background-image: url(../assets/images/projects/mobile/aware.jpg);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -489,7 +490,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-calmresponse {
   background-image: url(../assets/images/projects/mobile/calmresponse.jpg);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -520,7 +521,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-ddsupport {
   background-image: url(../assets/images/projects/mobile/ddsupport.png);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -551,7 +552,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-derma {
   background-image: url(../assets/images/projects/mobile/derma.png);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -582,7 +583,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-dualvoice {
   background-image: url(../assets/images/projects/mobile/dualvoice.png);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -613,7 +614,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-liplearner {
   background-image: url(../assets/images/projects/mobile/liplearner.jpg);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -644,7 +645,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-motion_in_action {
   background-image: url(../assets/images/projects/mobile/motion_in_action.png);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -675,7 +676,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-motion_seek_circle {
   background-image: url(../assets/images/projects/mobile/motion_seek_circle.png);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -706,7 +707,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-remoconhanger {
   background-image: url(../assets/images/projects/mobile/remoconhanger.jpg);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -737,7 +738,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-silentspeller {
   background-image: url(../assets/images/projects/mobile/silentspeller.png);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 
@@ -768,7 +769,7 @@ html {
 @media screen and (max-width: 500px) {
   .bg-container #bg-zigen {
   background-image: url(../assets/images/projects/mobile/zigen.jpeg);
-  background-size: auto 100%; } 
+  background-size: 100% auto; } 
 }
 
 /*************************/
